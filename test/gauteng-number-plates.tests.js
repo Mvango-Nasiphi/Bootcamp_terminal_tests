@@ -1,5 +1,5 @@
 import assert from "assert";
-var isFromGauteng = require('../gauteng-number-plates').default;
+import isFromGauteng from "../gauteng-number-plates";
 
 describe('Gauteng number plates function', function () {
     it('returns true if a registration number is for Gauteng otherwise returns false.', function () {

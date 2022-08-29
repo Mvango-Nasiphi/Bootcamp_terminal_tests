@@ -1,5 +1,5 @@
 import assert from "assert";
-var isFromLimpopo = require('../vehicle-reg-number').default;
+import isFromBellville from "../vehicle-reg-number";
 
 describe('Vehicle registration numbers function', function () {
     it('identify the origin of vehicle registration numbers.', function () {

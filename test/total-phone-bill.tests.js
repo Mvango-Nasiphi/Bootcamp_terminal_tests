@@ -1,5 +1,5 @@
 import assert from "assert";
-var totalPhoneBill = require('../total-phone-bill').default;
+import totalPhoneBill from "../total-phone-bill";
 
 describe('Total phone bill function', function () {
     it('calculates the total bill for the data provided.', function () {

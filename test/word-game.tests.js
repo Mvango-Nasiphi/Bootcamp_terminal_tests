@@ -1,5 +1,5 @@
 import assert from "assert";
-import longestWord from "../word-game";
+import longestWord from "../word-game.js";
 
 describe('The longest word function', function () {
     it('Finds the longest word in the sentence.', function () {
@@ -13,7 +13,7 @@ describe('The longest word function', function () {
 
 
 import assert from "assert";
-import shortestWord from "../word-game";
+import shortestWord from "../word-game.js";
 
 describe('The shortest word function', function () {
     it('Finds the shortest word in the sentence.', function () {
@@ -28,7 +28,7 @@ describe('The shortest word function', function () {
 
 
 import assert from "assert";
-import wordLengths from "../word-game";
+import wordLengths from "../word-game.js";
 
 describe('The word length function', function () {
     it('Sum the length of each word in a sentence', function () {

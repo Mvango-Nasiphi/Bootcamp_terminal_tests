@@ -1,5 +1,5 @@
 import assert from "assert";
-var enoughAirtime = require('../enough-airtime').default;
+import enoughAirtime from "../enough-airtime";
 
 describe('Enough airtime function', function () {
     it('calculates if a user will have enough airtime based on their projected usage.', function () {

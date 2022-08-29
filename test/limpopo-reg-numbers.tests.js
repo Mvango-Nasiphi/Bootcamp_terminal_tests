@@ -1,5 +1,5 @@
 import assert from "assert";
-var isFromLimpopo = require('../limpopo-reg-numbers').default;
+import isFromLimpopo from "../limpopo-reg-numbers";
 
 describe('Limpopo registration numbers function', function () {
     it('returns true if a registration number is for Limpopo otherwise returns false.', function () {
