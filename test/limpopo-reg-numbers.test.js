@@ -1,5 +1,5 @@
 import assert from "assert";
-import isFromLimpopo from "../limpopo-reg-numbers";
+import isFromLimpopo from "../limpopo-reg-numbers.js";
 
 describe('Limpopo registration numbers function', function () {
     it('returns true if a registration number is for Limpopo otherwise returns false.', function () {

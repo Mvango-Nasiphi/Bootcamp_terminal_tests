@@ -1,5 +1,5 @@
 import assert from "assert";
-import isFromCapeTown from "../capetown-reg-numbers";
+import isFromCapeTown from "../isFromCapeTown.js";
 
 describe('Cape town registration numbers function', function () {
     it('returns true if a registration number is for Cape Town otherwise returns false.', function () {

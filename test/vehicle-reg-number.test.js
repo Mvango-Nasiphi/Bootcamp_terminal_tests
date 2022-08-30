@@ -1,5 +1,5 @@
 import assert from "assert";
-import isFromBellville from "../vehicle-reg-number";
+import isFromBellville from "../vehicle-reg-number.js";
 
 describe('Vehicle registration numbers function', function () {
     it('identify the origin of vehicle registration numbers.', function () {
